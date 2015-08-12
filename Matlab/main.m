@@ -4,7 +4,7 @@
 clear all
 close all
 
-API_KEY = load('api_key.mat');
+load('api_key.mat'); %API_KEY
 
 url = 'https://na.api.pvp.net';
 api = '/api/lol/na/v1.4/summoner/by-name/';
